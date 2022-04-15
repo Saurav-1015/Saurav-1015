@@ -1,7 +1,8 @@
-- 👋 Hi, I’m @Saurav-1015
-- 👀 I’m interested in coding
-- 🌱 I’m currently learning DJANGO.
-- 💞️ I’m looking to collaborate on interesting project
+Hello Everybody,
+
+I am Saurav Kumar Mahato, currently studying in Pulchowk Campus, IOE, T.U.. I am a learning enthusiast. I would love to be part of different exciting project. Currently, I am studying C++, python, DJANGO. 
+
+EACH DAY IS UNIQUE DAY WITH LEARNING!!!
 
 
 
