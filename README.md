@@ -28,8 +28,8 @@ Hello Everybody,
 [![website](./img/twitter-light.svg)](https://twitter.com/SauravKumarMa16#gh-light-mode-only)
 [![website](./img/twitter-dark.svg)](https://twitter.com/SauravKumarMa16#gh-dark-mode-only)
 &nbsp;&nbsp;
-[![website](./img/linkedin-light.svg)](www.linkedin.com/in/saurav-kr-mahato#gh-light-mode-only)
-[![website](./img/linkedin-dark.svg)](www.linkedin.com/in/saurav-kr-mahato#gh-dark-mode-only)
+[![website](./img/linkedin-light.svg)](https://www.linkedin.com/in/saurav-kr-mahato/#gh-light-mode-only)
+[![website](./img/linkedin-dark.svg)](https://www.linkedin.com/in/saurav-kr-mahato/#gh-dark-mode-only)
 &nbsp;&nbsp;
 [![website](./img/instagram-light.svg)](https://www.instagram.com/sauravmahato139/#gh-light-mode-only)
 [![website](./img/instagram-dark.svg)](https://www.instagram.com/sauravmahato139/#gh-dark-mode-only)
