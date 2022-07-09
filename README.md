@@ -14,13 +14,13 @@ Hello Everybody,
 
 
 <!--FOR GITHUB stats-->
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Saurav-1015&show_icons=true&theme=nightowl)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SauravKumarMahato&show_icons=true&theme=nightowl)
 
 <!--FOR GITHUB STREAK-->
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Saurav-1015&theme=dark)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=SauravKumarMahato&theme=dark)](https://git.io/streak-stats)
 
 <!--FOR GITHUB LANGUAGES STATS-->
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Saurav-1015&layout=compact&theme=aura)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SauravKumarMahato&layout=compact&theme=aura)](https://github.com/anuraghazra/github-readme-stats)
 
 ### Connect with me:
 
