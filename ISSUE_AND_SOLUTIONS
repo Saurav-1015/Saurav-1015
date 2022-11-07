@@ -1,0 +1,62 @@
+Notes:
+
+------------- DJANGO ----------------------------------------------------------------------------------------------------------------------------------
+RESOLVING 404 NOT FOUND ERROR FOR STATIC FILES
+
+If your project is unable to locate the CSS or any other status files inside your project directory, it will throw HTTP 404 status code as an error.
+
+Is your Django CSS not loading?
+
+There are multiple ways of debugging it.
+
+Using findstatic option
+Run manage.py with find static option.
+
+If Django project able tp locate the CSS, it will return path to your CSS file.
+
+$ python manage.py findstatic css/style.css
+Found 'css/style.css' here:
+<path_to_your_CSS_file>
+If the CSS static file not found, it will throw an err as “No matching file found”
+
+$python manage.py findstatic css/style.css
+No matching file found for 'css/style.css'.
+Using Browser Console Output
+If you see your CSS or static files are not added properly, you can check the browser console output.
+
+To see the console output in Google Chrome browser,
+
+right-click on browser window
+select “inspect” or press ”Ctrl+Shift+I”
+open “Console” tab in “inspect”
+Django static CSS not found error in console
+You can see the error message.
+
+GET http://127.0.0.1:8000/static/css/style.css net::ERR_ABORTED 404 (Not Found)
+It has clearly mentioned that static file is not found.
+
+There can be multiple reason if the Django is unable to loacte static files.
+
+Check the static file directory and file names. I remember spending half an hour as I added .css explicitly in the file name and Django was reading this file as style.css.css.
+Recheck all the static URLs and paths set in the settings.py
+Understanding STATIC_ROOT and STATICFILES_DIRS
+Don’t get confused with the STATIC_ROOT and STATICFILES_DIRS in settings.py.
+
+When I faced the issue with my static, I dig into the internet. After reading through multiple pages, I found it more confusing. So, I just want to make it simple and clear for you.
+
+Both of these paths have different use.
+
+STATICFILES_DIRS
+
+You can keep the static files in multiple directories. For example, you might want to keep one static file directory for each Django app. In this case, you can list down all the static file paths inside in STATICFILES_DIRS list.
+
+STATIC_ROOT
+
+If your project is under development, you don’t need to set STATIC_ROOT in Django settings. This path is used when you deploy your project.
+
+When you run below command, it will collect all the static files into the STATIC_ROOT path directory.
+
+python manage.py collectstatic --noinput
+Keeping all the static files in one directory is useful to secure your files in production.
+
+This is all about how to add CSS in Django. Similarly, you can add other static files like JavaScript, Images, etc. Let me know if you are facing any problem adding static files in your Django project.
