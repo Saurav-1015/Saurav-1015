@@ -27,5 +27,5 @@ You can click the Preview link to take a look at your changes.
 <!--FOR GITHUB LANGUAGES STATS-->
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SauravKumarMahato&layout=compact&theme=aura)](https://github.com/anuraghazra/github-readme-stats)
 
-
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=SauravKumarMahato&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 #### EACH DAY IS UNIQUE DAY WITH LEARNING!!! 
